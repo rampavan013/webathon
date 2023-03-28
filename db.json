@@ -86,18 +86,27 @@
     {
       "username": "Puppy",
       "phoneNumber": 9390986746,
-      "Event": "Destination",
+      "Event": "Destination Marriage",
       "date": "2023-03-31",
       "address": "Kothapet",
       "capacity": 210,
       "id": 2
+    },
+    {
+      "username": "naveen",
+      "phoneNumber": 9390986746,
+      "Event": "Birthday Celebration",
+      "date": "2023-03-07",
+      "address": "spl",
+      "capacity": 1000,
+      "id": 3
     }
   ],
   "localUser": [
     {
-      "memberID": "M101",
+      "memberID": "M102",
       "password": "abcdef",
-      "name": "Balu",
+      "name": "Rajesh",
       "email": "abcd@gmail.com",
       "phoneNumber": 9874132565,
       "committee": "media",
@@ -159,6 +168,11 @@
       "message": "asuhdjaf",
       "name": "Balu",
       "id": 11
+    },
+    {
+      "message": "llll\n",
+      "name": "Rajesh",
+      "id": 12
     }
   ]
 }

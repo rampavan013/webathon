@@ -25,7 +25,7 @@ function Book() {
   }
   return (
 
-    <div className='container form1 rounded mt-4  bg-opacity-75  p-3'>
+    <div className='container form1 rounded mt-4 bg-opacity-75 p-3'>
       <h1 className='text-center mb-4'>
         Booking Details
       </h1>

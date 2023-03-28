@@ -41,9 +41,9 @@ function Home() {
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
-        <h1 className='text-center mt-5 w1'>Book a Free Consultation!</h1>
+        <h1 className='text-center mt-5 w1'>Pool of Events.!</h1>
         <div className='fixed-bottom mb-3'>
-        <NavLink to='/book' className='ms-3'><Button className='btn btn-success rounded-3 opacity-100'>
+        <NavLink to='/book' className='ms-3'><Button className='btn btn-success rounded-3 opacity-100' size='lg'>
             Book Here</Button></NavLink>
         </div>
         <div className='m-auto mt-5  container'>

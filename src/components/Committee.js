@@ -11,6 +11,7 @@ function Committee() {
   let [msg,setMsg]=useState([]);
   let {register,handleSubmit,setValue,formState:{errors}}=useForm();
   let [user] = useContext(usersContext);
+  let [events,setEvents] = useState([]);
 
   let [loginUser,setLoginUser] = useState("")
   
@@ -47,6 +48,10 @@ function Committee() {
 
     axios.get('http://localhost:4000/localUser')
     .then(res=>{setLoginUser(res.data[0].name)})
+    .catch(err=>console.log(err))
+
+    axios.get('http://localhost:4000/events')
+    .then(res=>setEvents(res.data))
     .catch(err=>console.log(err))
 
   },[])
@@ -112,9 +117,28 @@ function Committee() {
         
  
       </div>
-    <div className='w-50 mx-auto'>
+    <div className='mx-auto row row-cols-1 row-cols-md-2'>
+      <div className='col'>
+      <h2 className='display-4 text-center mb-3'>Event Orders:</h2>
+      <div>
+        {
+          events.map(obj=>
+            <div className='w-50 mx-auto text-center'>
+              <p className=''>Event: {obj.Event}</p>
+              <p className=''>Name: {obj.username}</p>
+              <p className=''>PhoneNumber: {obj.phoneNumber}</p>
+              <p className=''>Date: {obj.date}</p>
+              <p className=''>Address: {obj.address}</p>
+              <p className=''>Capacity: {obj.capacity}</p>
+              <hr/>
+            </div>
+          )
+        }
+      </div>
+      </div>
+      <div className='col'>
       <h2 className='display-4 text-center mb-3'>Messages</h2>
-    <div className="overflow-auto bg-dark text-white p-2 rounded" style={{ height: '200px' }}>
+    <div className="overflow-auto bg-dark text-white p-2 rounded" style={{ height: '400px' }}>
     {
         msg.map(obj => 
           <div className='row row-cols-2'>
@@ -130,6 +154,7 @@ function Committee() {
         )
       }
     </div>
+    
     <form className='d-flex mt-2' onSubmit={handleSubmit(submitMessage)}>
     <input type='text' value={loginUser} disabled className='w-25 rounded' />
     <textarea className='w-75 rounded pt-1' placeholder=' Type a message...' rows={1}  
@@ -138,6 +163,7 @@ function Committee() {
     </textarea>
     <Button className='ms-2 mt-0' type='submit'>Send</Button>
     </form>
+    </div>
     </div>
     </div>
   )
