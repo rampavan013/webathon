@@ -57,7 +57,7 @@ function Login() {
             </div>
             
             <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1 d-flex ">
-                <form onSubmit={handleSubmit(submitForm)} className=''>
+                <form onSubmit={handleSubmit(submitForm)} className='mt-5'>
                 {err.length != 0 && <p className='text-danger'>*Invalid ID or Password</p>}
                 <div className="form-outline mb-4 mt-4">
                     <input type="text" id="form3Example3" className="form-control form-control-lg"
