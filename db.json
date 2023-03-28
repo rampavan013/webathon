@@ -1,0 +1,164 @@
+{
+  "members": [
+    {
+      "memberID": "P101",
+      "password": "abcdef",
+      "name": "Ravi",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "planning"
+    },
+    {
+      "memberID": "P102",
+      "password": "abcdef",
+      "name": "Suresh",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "planning"
+    },
+    {
+      "memberID": "P103",
+      "password": "abcdef",
+      "name": "Ramu",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "planning"
+    },
+    {
+      "memberID": "D101",
+      "password": "abcdef",
+      "name": "Sampath",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "decoration"
+    },
+    {
+      "memberID": "D102",
+      "password": "abcdef",
+      "name": "Sarika",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "decoration"
+    },
+    {
+      "memberID": "D103",
+      "password": "abcdef",
+      "name": "Sneha",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "decoration"
+    },
+    {
+      "memberID": "M101",
+      "password": "abcdef",
+      "name": "Balu",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "media"
+    },
+    {
+      "memberID": "M102",
+      "password": "abcdef",
+      "name": "Rajesh",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "media"
+    },
+    {
+      "memberID": "M103",
+      "password": "abcdef",
+      "name": "Suraj",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "media"
+    }
+  ],
+  "events": [
+    {
+      "username": "Rambabu",
+      "phoneNumber": 9390986746,
+      "Event": "Birthday Celebration",
+      "date": "2023-03-31",
+      "address": "Hyderabad",
+      "capacity": 120,
+      "id": 1
+    },
+    {
+      "username": "Puppy",
+      "phoneNumber": 9390986746,
+      "Event": "Destination",
+      "date": "2023-03-31",
+      "address": "Kothapet",
+      "capacity": 210,
+      "id": 2
+    }
+  ],
+  "localUser": [
+    {
+      "memberID": "M101",
+      "password": "abcdef",
+      "name": "Balu",
+      "email": "abcd@gmail.com",
+      "phoneNumber": 9874132565,
+      "committee": "media",
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "name": "Rajesh",
+      "message": "hi iM rajesh",
+      "id": 1
+    },
+    {
+      "name": "Rajesh",
+      "message": "hi",
+      "id": 2
+    },
+    {
+      "name": "Rajesh",
+      "message": "hi",
+      "id": 3
+    },
+    {
+      "message": "sada",
+      "name": "Rajesh",
+      "id": 4
+    },
+    {
+      "message": "sada",
+      "name": "Rajesh",
+      "id": 5
+    },
+    {
+      "message": "nisanjda",
+      "name": "Rajesh",
+      "id": 6
+    },
+    {
+      "message": "hihidi",
+      "name": "Rajesh",
+      "id": 7
+    },
+    {
+      "message": "jtgv",
+      "name": "Rajesh",
+      "id": 8
+    },
+    {
+      "message": "jtgv",
+      "name": "Rajesh",
+      "id": 9
+    },
+    {
+      "message": "asdafsfsadf",
+      "name": "Rajesh",
+      "id": 10
+    },
+    {
+      "message": "asuhdjaf",
+      "name": "Balu",
+      "id": 11
+    }
+  ]
+}
