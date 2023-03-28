@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap'
 import { useForm } from 'react-hook-form';
 import { useContext } from 'react';
 import { usersContext } from './Contextprovider';
+import './Committee.css';
 
 function Committee() {
 
@@ -50,57 +51,68 @@ function Committee() {
 
   },[])
   return (
-    <div>
+    <div className='pb-5'>
       <hr/>
       
-    <div className='container mt-5 d-flex justify-content-around mb-5'>
-      <div className="col col-md-3 mt-2 h-50 ">
+      <div className='container mt-5 border d-flex justify-content-around mb-5'>
+      <div className="col col-md-3 mt-2 h-50 bg-dark">
             <div className="card shadow">
                 <div className="card-header rounded p-0">
                    
                 </div>
-                <div className="card-body">
-                    <div className="fs-3">Planning Committee</div>
+                <div className="card-body bg-success bg-opacity-50">
+                    <div className="fs-3 w4">Planning Committee</div>
                      <p>
-                     A planning committee is a group of individuals responsible for organizing and managing an event. The committee is usually formed by the event organizers or sponsors, 
-                     and identifying vendors. 
-                    
-                    </p>
-
+                     A planning committee is a group of individuals responsible for organizing and managing an event. The committee is formed by the event organizers.
+                     <br/>
+                     <br/>
+                     
+                     <h5>Contact Details :</h5>📞 9219199129<br/> 📞 9245367121<br/>
+                     ✉ ravi2041@gmail.com
+                     
+                     </p>
+                     
 
                 </div>
             </div>
         </div>
-        <div className="col col-md-3 mt-2 h-50 ms-4">
+        <div className="col col-md-3 mt-2 h-50 ms-4 bg-dark">
             <div className="card shadow">
                 <div className="card-header rounded p-0">
                     
                 </div>
-                <div className="card-body">
-                    <div className="fs-3">Decoration Comitte</div>
+                <div className="card-body  bg-success bg-opacity-50 ">
+                    <div className="fs-3 w4">Decoration Committee</div>
                      <p>
-                        
+                     The visual and aesthetic components of an event are designed and carried out by the Decorating Committee and designing team.<br/><br/>
+                     <h5>Contact Details :</h5>📞 9219199134<br/> 📞 9245367156<br/>
+                     ✉ shiva_kushi20@gmail.com
                      </p>
-
+                   
                 </div>
             </div>
         </div>
-        <div className="col col-md-3 mt-2 h-50 ms-4">
+        <div className="col col-md-3 mt-2 h-50 ms-4 bg-dark">
             <div className="card shadow">
                 <div className="card-header rounded p-0">
                   
                 </div>
-                <div className="card-body">
-                    <div className="fs-3">Media/PR Comitte</div>
+                <div className="card-body  bg-success bg-opacity-50">
+                    <div className="fs-3 w4">Media/PR Committee</div>
                      <p>
-                        
+                     In order to guarantee that an event receives sufficient media coverage and  the Media and PR Committee is in charge of managing the public image.<br/><br/>
+                     <h5>Contact Details: </h5>📞 9219199125<br/> 📞 9245367132<br/>
+                     ✉ manoj_kumar@gmail.com
                      </p>
-
+                    
+                     
                 </div>
             </div>
         </div>
-        </div>
-    <div className='w-50 mx-auto vh-100'>
+        
+ 
+      </div>
+    <div className='w-50 mx-auto'>
       <h2 className='display-4 text-center mb-3'>Messages</h2>
     <div className="overflow-auto bg-dark text-white p-2 rounded" style={{ height: '200px' }}>
     {
